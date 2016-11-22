@@ -1,3 +1,14 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+body {padding: 0; margin: 0;}
+.dorkbackground {position: absolute; height: auto; width: 100%; margin: 0; padding: 0;}
+.dorkbackgroundmobile {display: none;}
+
+@media screen and (max-width: 640px){
+
+.dorkbackgroundmobile {position: absolute; height: auto; width: 100%; margin: 0; padding: 0; display: inline;}
+.dorkbackground {display: none;}
+	}
